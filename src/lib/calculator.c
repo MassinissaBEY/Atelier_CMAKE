@@ -16,6 +16,6 @@ double _div(double a, double b) {
 	return a/b;
 }
 
-int _car(double a) {
+int _car(int a) {
 	return a * a;
 }
