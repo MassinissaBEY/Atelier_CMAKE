@@ -20,7 +20,7 @@ int main(int argc, char *argv[]){
 		}
 		else if (strcmp(op, "mul") == 0) {
 			r = _mul(atof(a), atof(b));
-			printf("%lf", r);
+			printf("%d", r);
 		}
 		else if (strcmp(op, "div") == 0) {
 			r = _div(atof(a), atof(b));
